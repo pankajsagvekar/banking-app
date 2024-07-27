@@ -1,5 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Bank person = new Bank("Pankaj");
+
+        person.addMoney(200);
+        person.withdrawMoney(300);
+        person.checkBalance();
     }
 }
