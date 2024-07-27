@@ -1,3 +1,4 @@
+@SuppressWarnings("unused")
 public class Bank {
     private float money;
     private String user;
